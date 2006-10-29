@@ -10,8 +10,6 @@ body {
 	margin: 0px 0px 0px 0px;
 	padding: 10px;
     padding-right: 120px;
-	background-color: #eeeeee;
-    border-bottom: 1px solid #aaaaaa;
 	height: 90px; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
@@ -23,15 +21,17 @@ html>body #top {
 	}
     
 #left {
-	position: absolute;
-	top: 110px;
+	position: fixed;
+	top: 20px;
 	left: 0px;
 	padding: 5px;
     font-family: Verdana, Monospace;
-    font-size: 14px;
-	border: 1px solid #aaaaaa;
+    font-size: 16px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-topright: 10px;
+	border: 2px solid #aae;
     border-left: none;
-	background: #eeeeee;
+	background: #ccf;
 	width: 170px; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
@@ -44,18 +44,13 @@ html>body #left {
     
 #main {
     font-family: Verdana, Monospace;
-	margin: -1px 0px 20px 190px;
-	padding: 10px;
-	border: 1px solid #aaaaaa;
-    border-right: none;
-    border-top: 1px solid #eeeeee;
-	background: #eeeeee;
+	margin: 0px 0px 20px 170px;
+	padding: 15px;
 	}
     
 h4 {
   vertical-align: middle;
   font-size: 16px;
-  border-bottom: 1px solid #aaaaaa;
   margin: 0px;
   padding-bottom: 2px;
 }
@@ -75,7 +70,11 @@ ul li
 
 #left ul {
   text-align: right;
-  
+  margin: 0px;
+}
+
+#left a {
+  color: black;
 }
 
 
@@ -104,7 +103,7 @@ html>body ul {
 
 #left ul li a:hover
 {
-  background: #ccccff;
+  background: #ddf;
 }
 
 /* Hide from IE-mac \*/
@@ -191,6 +190,8 @@ img {
   position: absolute;
   top: 0px;
   right: 120px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
   border: 1px solid #aaaaaa;
   border-top: none;
   padding: 2px;
@@ -229,6 +230,8 @@ img {
 }
  
 #status {
-  border: 1px solid white;
+  border: 2px solid #aae;
+  -moz-border-radius: 10px;
+  background-color: #ccf;
   padding: 3px;
 }
