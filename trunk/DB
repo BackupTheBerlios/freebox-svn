@@ -1,0 +1,12 @@
+tabelle:
+  . etichette (attacchiamo etichette ad album e album ad artisti e brani ad artisti)
+  . artisti ( _nomeArtista_, descrizione )
+  . album ( _titoloAlbum_, genere, _nomeArtista_, data pubblicazione, _nomeEtichetta_ )
+  . brani ( _titolo_, _titoloAlbum, _nomeArtista_ )
+  
+path brano => /etichetta/artista/album/brano
+path copertina => /etichetta/artista/album/copertina.jpg (vedere standard burnstation)
+
+----
+
+la playlist la si salva con una sessione che viene cancellata al termine delle operazioni di copia/masterizza o a tempo

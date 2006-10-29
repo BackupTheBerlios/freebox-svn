@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Monospace;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#top {
+	margin: 0px 0px 0px 0px;
+	padding: 10px;
+    padding-right: 120px;
+	background: #eeeeee;
+    border-bottom: 1px solid #aaaaaa;
+	height: 100px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height: 70px;
+	}
+    
+html>body #top {
+	height: 70px; /* ie5win fudge ends */
+	}
+    
+#left {
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+    border-left: none;
+	background: #eeeeee;
+	width: 190px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 160px;
+	}
+    
+html>body #left {
+	width: 160px; /* ie5win fudge ends */
+	}
+    
+#main {
+	margin: -1px 190px 20px 190px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+    border-top: 1px solid #eeeeee;
+	background: #eeeeee;
+	}
+    
+#right {
+  line-height: 20px;
+	position: absolute;
+	top: 110px;
+	right: 0px; /* Opera5.02 will show a space 
+	at right when there is no scroll bar */
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+    border-right: none;
+	background: #eeeeee;
+	width: 190px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 160px;
+}
+    
+html>body #right {
+	width: 160px; /* ie5win fudge ends */
+	}
+
+
+h4 {
+  vertical-align: middle;
+  font-size: 16px;
+  border-bottom: 1px solid #aaaaaa;
+  margin: 0px;
+  padding-bottom: 2px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+ul,
+ul li
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: block;
+}
+
+#right ul {
+  text-align: left;
+}
+
+#left ul {
+  text-align: right;
+}
+
+
+ul
+{
+  margin-top: 10px;
+	border-bottom-width: 0px;
+}
+
+ul li a
+{
+	display: block;
+	text-decoration: none;
+	padding: 2px 10px;
+}
+
+ul li a:hover
+{
+  background-color: #ccccff;
+}
+
+/* Hide from IE-mac \*/
+* html .vnav ul li a/* hide from IE 5.0 */ {height: 1%;}
+/* End hide */
+
+a,
+a:link,
+a:visited
+{
+  color: #000099;
+}
+
+textarea,
+input {
+  font-size: 12px;
+  border: 1px solid #aaaaaa;
+}
+
+textarea:hover, 
+input:hover
+{
+  background-color: #f4f4ff;
+}
+
+textarea:focus,
+input:focus{
+  border: 1px solid #666666;
+}
+
+
+br {
+  line-height: 5px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.msg {
+  border: 1px solid #aaaaaa;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.msg pre {
+  margin: 0px;
+  padding: 3px;
+}
+
+.msg h4 {
+  font-size: 13px;
+  padding: 2px;
+  padding-left: 5px;
+  background-color: #dcdcff;
+  height: 17px;
+}
+
+.comment h4 {
+  font-size: 13px;
+  padding: 2px;
+  padding-left: 5px;
+  background-color: #ffeeaa;
+  height: 17px;
+}
+
+div.msg:hover 
+{
+  border: 1px solid #666666;
+}
+
+img {
+  border: none;
+}
+
+.testo {
+  padding: 3px;
+}
+
+.info {
+  float:right;
+  border: 1px solid #aaaaaa;
+  border-top: none;
+  margin-top: -10px;
+  padding: 2px;
+  background: #dcdcff;
+  width: 350px;
+}
