@@ -228,3 +228,7 @@ img {
   padding-right: 3px;
 }
  
+#status {
+  border: 1px solid white;
+  padding: 3px;
+}

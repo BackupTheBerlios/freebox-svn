@@ -13,11 +13,10 @@
     $action = ucfirst ( isset( $_GET['act'] ) ?$_GET['act']:'home' );
     if ( ! file_exists ( ROOT . "/inc/act{$action}.php" ) )
       exit(0);
-    
   
     if ( isset ( $_GET['state'] ) )
     {
-      include ( ROOT . "/inc/{$_GET['act']}" );
+      include ( ROOT . "/inc/act{$action}.php" );
       exit(0);
     }
     

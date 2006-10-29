@@ -11,8 +11,12 @@
   <LINK href="css/staila.css" type="text/css" rel="stylesheet">
   <script type='text/javascript' src='scripts/dojo.js'></script>
   <script type='text/javascript' src='scripts/comandi.js'></script>
+  <script>
+    setInterval( "sendCommand('refreshInfo');", 3000);
+  </script>
 </head>
 <body>
+
 <? }
   
   function printFooter()
