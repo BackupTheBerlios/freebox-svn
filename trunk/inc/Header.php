@@ -1,6 +1,7 @@
 <?
   function printHeader()
   {
+    session_start();
 ?>
 <html>
 <head>
@@ -12,7 +13,7 @@
   <script type='text/javascript' src='scripts/dojo.js'></script>
   <script type='text/javascript' src='scripts/comandi.js'></script>
   <script>
-    setInterval( "sendCommand('refreshInfo');", 3000);
+    setInterval( "sendCommand('refreshInfo');", 5000);
   </script>
 </head>
 <body>

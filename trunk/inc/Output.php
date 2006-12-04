@@ -44,6 +44,7 @@
   <span class='info'>
   <img src='img/information.gif'>
   <?=$string?>
+  <span id='usbStatus'></span>
   </span>
 <?
   }

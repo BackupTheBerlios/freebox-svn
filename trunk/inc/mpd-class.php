@@ -198,7 +198,7 @@ class mpd {
 	function SendCommand($cmdStr,$arg1 = "",$arg2 = "") {
 		if ( $this->debugging ) echo "mpd->SendCommand() / cmd: ".$cmdStr.", args: ".$arg1." ".$arg2."\n";
 		if ( ! $this->connected ) {
-			echo "mpd->SendCommand() / Error: Not connected\n";
+			echo "";//mpd->SendCommand() / Error: Not connected\n";
 		} else {
 			// Clear out the error String
 			$this->errStr = "";

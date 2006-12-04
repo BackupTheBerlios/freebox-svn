@@ -9,6 +9,11 @@
     genere = document.getElementById( 'Genere' );
     genere.innerHTML= data.Genre;
     
+    usb = document.getElementById( 'usbStatus' );
+    if ( data.usbStatus == '1' )
+      usb.innerHTML = '<img src="img/music.png">';
+    else
+      usb.innerHTML = '';
 
   }
 
